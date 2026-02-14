@@ -36,7 +36,7 @@ If you see errors like `Failed to assign ethereum proxy` or `Invalid property de
 
    ```bash
    cp .env.example .env.local
-   # Set NEXT_PUBLIC_APP_URL to your deployed URL (e.g. https://sokoban-cyber.vercel.app)
+   # Set NEXT_PUBLIC_APP_URL to your deployed URL (e.g. https://sokoban-kappa.vercel.app)
    ```
 
 3. **Run locally**
@@ -48,7 +48,7 @@ If you see errors like `Failed to assign ethereum proxy` or `Invalid property de
 ## Deploy (Vercel)
 
 1. Push to GitHub and import the repo in Vercel.
-2. Set `NEXT_PUBLIC_APP_URL` to your Vercel production URL.
+2. Set `NEXT_PUBLIC_APP_URL` to `https://sokoban-kappa.vercel.app` (or your Vercel URL).
 3. Turn off **Deployment Protection** (Settings → Deployment Protection → Vercel Authentication off).
 4. Go to [Base Build Account Association](https://www.base.dev/preview?tab=account), paste your domain, and get the `accountAssociation` object.
 5. Add `accountAssociation` (header, payload, signature) to `farcaster.config.ts`.

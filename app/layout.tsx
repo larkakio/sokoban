@@ -4,7 +4,7 @@ import { GameProvider } from "@/context/GameProvider";
 import { FarcasterReady } from "@/components/FarcasterReady";
 import "./globals.css";
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://sokoban-kappa.vercel.app";
 
 export const metadata: Metadata = {
   title: farcasterConfig.miniapp.name,
