@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cyber-bg: #0a0e1a;
+  --cyber-bg-secondary: #151b2e;
+  --cyber-cyan: #00f5ff;
+  --cyber-purple: #b000ff;
+  --cyber-green: #00ff88;
+  --cyber-wall: #2d3748;
+  --cyber-text: #e8f4f8;
+  --cyber-red: #ff3366;
+}
+
+body {
+  background: var(--cyber-bg);
+  color: var(--cyber-text);
+  min-height: 100vh;
+}
+
+/* Safe area for mobile notch */
+@supports (padding: env(safe-area-inset-bottom)) {
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
