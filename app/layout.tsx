@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: farcasterConfig.miniapp.name,
   description: farcasterConfig.miniapp.description,
   other: {
+    "base:app_id": "69903f22e0d5d2cf831b5ba2",
     "fc:frame": JSON.stringify({
       version: farcasterConfig.miniapp.version,
       imageUrl: farcasterConfig.miniapp.heroImageUrl,
